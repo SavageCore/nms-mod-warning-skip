@@ -2,7 +2,7 @@
 # its case jump to the shared check's skip destination.
 [mod]
 id = "eu.savagecore.mod_warning_skip"
-version = "0.0.0"
+version = "0.1.0"
 enabled = true
 
 [[patch]]
