@@ -7,13 +7,6 @@ label = "Skip Mod Warning"
 description = "Skips the No Man's Sky mods-detected warning dialog."
 enabled = true
 
-[[setting]]
-id = "mod-warning"
-kind = "bool"
-label = "Skip mods warning"
-description = "Retarget the warning jump. Off restores vanilla."
-default = true
-
 [[patch]]
 id = "mod-warning"
 op = "retarget-jmp"
