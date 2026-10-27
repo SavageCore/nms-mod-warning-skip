@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Regenerate the Nexus page images from the source screenshot.
 
-  assets/header-mod-warning-skip-1300x372.jpg   (dialog crop + title overlay, banner)
-  assets/gallery-mod-warning-skip-1920x1080.jpg (screenshot with red X, gallery)
+  assets/header-1300x372.jpg   (dialog crop + title overlay, banner)
+  assets/gallery-1920x1080.jpg (screenshot with red X, gallery)
 
 The header is a band cropped around the warning dialog, with the title
 top-left over a darkened left edge (same layout as the bigger-inventory
@@ -18,8 +18,8 @@ from PIL import Image, ImageDraw, ImageFont
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "warning.jpg")
-HDR = os.path.join(HERE, "header-mod-warning-skip-1300x372.jpg")
-GALLERY = os.path.join(HERE, "gallery-mod-warning-skip-1920x1080.jpg")
+HDR = os.path.join(HERE, "header-1300x372.jpg")
+GALLERY = os.path.join(HERE, "gallery-1920x1080.jpg")
 
 # In-game heading typeface, vendored (SIL OFL 1.1):
 # https://github.com/NMSCD/No-Mans-Sky-Universal-Font
