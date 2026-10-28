@@ -7,6 +7,62 @@ label = "Skip Mod Warning"
 description = "Skips the No Man's Sky mods-detected warning dialog."
 enabled = true
 
+[[mod.text]]
+lang = "nl"
+description = "Slaat de waarschuwing voor gedetecteerde mods in No Man's Sky over."
+
+[[mod.text]]
+lang = "de"
+description = "Überspringt den Warndialog für erkannte Mods in No Man's Sky."
+
+[[mod.text]]
+lang = "fr"
+description = "Ignore l'avertissement de mods détectés de No Man's Sky."
+
+[[mod.text]]
+lang = "it"
+description = "Salta la finestra di avviso delle mod rilevate di No Man's Sky."
+
+[[mod.text]]
+lang = "es"
+description = "Omite el diálogo de advertencia de mods detectados de No Man's Sky."
+
+[[mod.text]]
+lang = "es-419"
+description = "Omite el diálogo de advertencia de mods detectados de No Man's Sky."
+
+[[mod.text]]
+lang = "ru"
+description = "Пропускает диалог предупреждения об обнаруженных модах No Man's Sky."
+
+[[mod.text]]
+lang = "pl"
+description = "Pomija okno ostrzeżenia o wykrytych modach w No Man's Sky."
+
+[[mod.text]]
+lang = "pt"
+description = "Ignora a caixa de diálogo de aviso de mods detetados do No Man's Sky."
+
+[[mod.text]]
+lang = "pt-BR"
+description = "Pula a caixa de diálogo de aviso de mods detectados do No Man's Sky."
+
+[[mod.text]]
+lang = "ja"
+description = "No Man's SkyのMOD検出警告ダイアログをスキップします。"
+
+[[mod.text]]
+lang = "zh"
+description = "跳过No Man's Sky检测到模组时的警告对话框。"
+
+[[mod.text]]
+lang = "zh-Hant"
+description = "跳過No Man's Sky偵測到模組時的警告對話框。"
+
+[[mod.text]]
+lang = "ko"
+description = "No Man's Sky 모드 감지 경고 대화상자를 건너뜁니다."
+
 [[patch]]
 id = "mod-warning"
 op = "retarget-jmp"
