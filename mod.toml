@@ -2,7 +2,7 @@
 # its case jump to the shared check's skip destination.
 [mod]
 id = "eu.savagecore.mod_warning_skip"
-version = "0.1.0"
+version = "0.2.0"
 label = "Skip Mod Warning"
 description = "Skips the No Man's Sky mods-detected warning dialog."
 enabled = true
